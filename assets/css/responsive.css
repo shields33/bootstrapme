@@ -1,0 +1,225 @@
+img {
+    max-width:100%;
+}
+
+
+
+/*
+	XL Destop view
+*/
+@media (min-width:1200px) {
+
+    /* Set menu padding */
+    nav.top.navbar-default .navbar-nav > li > a {
+        padding-left:24px;
+        padding-right:24px;
+
+    }
+}
+
+/*
+	Mobile, table, MD desktop view
+*/
+@media (max-width:1199px) {
+
+}
+
+/*
+	MD Desktop view
+*/
+@media (min-width:992px) and (max-width:1199px) {
+
+    /* Set menu padding */
+    nav.top.navbar-default .navbar-nav > li > a {
+        padding-left:11px;
+        padding-right:12px;
+    }
+}
+
+
+
+/*
+	MD desktop XL Desktop view
+*/
+@media (min-width: 992px) {
+    nav.top .container-fluid,
+    nav.footer .container-fluid {
+        padding-left:0;
+        padding-right:0;
+    }
+
+    nav.top.navbar,nav.footer.navbar {
+        margin-bottom:0!important;
+        margin:0!important;
+        min-height:0;
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+    nav.top.navbar-default {
+        background:none;
+        border-color:transparent;
+    }
+
+    nav.top.navbar-default .navbar-nav > li > a {
+        /*font-size:12px!important;*/
+        color:#fff;
+        /* 		border-right:1px solid #ffffff; */
+        text-transform:uppercase;
+        padding-top:18px;
+        padding-bottom:33px;
+    }
+
+    nav.top.navbar-default .navbar-nav > li:first-child > a {
+        /* 		border-left:1px solid #ffffff; */
+    }
+
+    nav.top .navbar-collapse {
+        padding-left:0;
+        padding-right:0;
+    }
+
+    nav.footer.navbar-default .navbar-nav > .active > a,
+    nav.footer.navbar-default .navbar-nav > .active > a:focus {
+        background:none;
+    }
+
+    nav.top.navbar-default .navbar-nav > .active > a,
+    nav.top.navbar-default .navbar-nav > .active > a:focus,
+    nav.top.navbar-default .navbar-nav > li > a:hover,
+    nav.top.navbar-default .navbar-nav > .active > a:hover {
+        background-color:#231f20;
+        color:#fff;
+    }
+
+    nav.top.navbar-default .navbar-nav > .open > a,
+    nav.top.navbar-default .navbar-nav > .open > a:focus,
+    nav.top.navbar-default .navbar-nav > .open > a:hover {
+        background-color:#231f20;
+        color:#fff;
+    }
+
+    nav.top.navbar-default .navbar-nav > li.not-nav > a,
+    nav.footer.navbar-default .navbar-nav > li.not-nav > a {
+        display:none;
+    }
+
+    nav.top	.dropdown-menu {
+        border:none;
+        box-shadow:none;
+        background-color:#231f20;
+    }
+
+    nav.top .dropdown-menu > li > a {
+        font-size:15px;
+        padding:8px 20px;
+        color:#fff;
+        border-bottom:1px solid #666666;
+    }
+
+    nav.top .dropdown-menu > li > a:hover {
+        background-color:#0095d6;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .social{
+        padding-top:8px;}
+}
+
+/*
+
+Tablet nav
+
+*/
+@media (max-width: 991px) {
+    .top .navbar-header {
+        float:none;
+    }
+
+    .top .navbar-header {
+        float:none;
+    }
+
+    .navbar-toggle {
+        display:block;
+    }
+
+    .navbar-collapse {
+        border-top:1px solid transparent;
+        box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display:none!important;
+    }
+
+    .navbar-nav {
+        float:none!important;
+        margin:7.5px -15px;
+    }
+
+    .navbar-nav>li {
+        float:none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display:block!important;
+    }
+
+    .collapsing {
+        overflow:hidden!important;
+    }
+
+    nav.top.navbar {
+        margin-bottom:0;
+    }
+
+    .navbar-default {
+        background-color:#e0e0ce;
+        border-color:#e0e0ce;
+        color:#fff;
+    }
+
+    nav.top.navbar-default .navbar-nav > li > a {
+        color:#4a4f22!important;
+    }
+
+    nav.top.navbar-default .navbar-nav > li > a:hover {
+        color:#fff !important;
+        font-weight:700;
+    }
+
+    .navbar.navbar-default.main.top .navbar-nav > .active > a,
+    .navbar.navbar-default.main.top .navbar-nav > .active > a:focus,
+    .navbar.navbar-default.main.top .navbar-nav > .active > a:hover {
+        background-color:#4a4f22 !important;
+        color: #ffffff !important;
+
+
+    }
+}
+
+/*
+	Tablet, mobile, MD desktop, XL desktop view
+*/
+@media screen and (min-width: 768px) {
+    .navbar-collapse {
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+/*
+	Mobile
+*/
+@media (max-width: 767px) {
+
+}
