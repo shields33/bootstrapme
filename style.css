@@ -17,3 +17,29 @@ bootstrapme is based on Underscores http://underscores.me/, (C) 2012-2016 Automa
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
+
+body {
+    line-height:1.7;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.sm-spacer {
+    margin-top:15px;
+}
+
+.md-spacer {
+    margin-top:20px;
+}
+
+.lg-spacer {
+    margin-top:30px;
+}
+
+.xl-spacer {
+    margin-top:60px;
+}
+

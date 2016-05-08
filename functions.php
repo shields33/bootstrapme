@@ -114,13 +114,14 @@ add_action( 'widgets_init', 'bootstrapme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bootstrapme_scripts() {
-	
-	wp_enqueue_style( 'bootstrap-style', get_stylesheet_uri().'/assets/css/bootstrap.min.css' );
+	wp_enqueue_style('ie10workaround', get_template_directory_uri().'/assets/css/ie10-viewport-bug-workaround.css');
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri().'/assets/css/bootstrap.min.css' );
 	wp_enqueue_style( 'bootstrapme-responsive', get_template_directory_uri().'/assets/css/responsive.css' );
 	wp_enqueue_style( 'bootstrapme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script('script-bootstrap', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery'), true);
-	
+	wp_enqueue_script('script-bootstrap', get_template_directory_uri().'/assets/js/ie10-viewport-bug-workaround.js');
+	wp_enqueue_script('scipt-customjquery',get_template_directory_uri().'/assets/js/script.js',array('jquery'),true);
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
