@@ -12,5 +12,5 @@
  */
 ?>
 <aside class="col-md-4">
-   fdsa
+   
 </aside>
